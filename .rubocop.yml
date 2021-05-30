@@ -1,0 +1,15 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-sequel
+
+AllCops:
+  NewCops: enable
+
+Layout/LineLength:
+  Max: 100
+  Severity: warning
+
+Style/Documentation:
+  Enabled: false
